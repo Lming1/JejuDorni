@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 
 import java.util.zip.Inflater;
 
@@ -14,6 +15,9 @@ import java.util.zip.Inflater;
  */
 
 public class FirstFragment extends Fragment {
+    private ListView list;
+    private String[] web = {"A", "B", "C", "D", "E"};
+    private Integer[] imageId = {R.drawable.image_1, R.drawable.image_2, R.drawable.image_3, R.drawable.image_4, R.drawable.image_5};
     public static FirstFragment newInstance() {
         FirstFragment newFragment = new FirstFragment();
         return newFragment;
