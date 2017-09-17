@@ -1,5 +1,6 @@
 package kr.ac.jejunu.ux.dorni;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,7 +9,7 @@ import android.util.Log;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class SlashActivity extends AppCompatActivity {
+public class SlashActivity extends Activity {
     TimerTask mTask;
     Timer mTimer;
 
